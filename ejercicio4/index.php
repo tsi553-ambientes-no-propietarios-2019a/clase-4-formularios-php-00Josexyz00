@@ -11,3 +11,23 @@
  * "Las contrseñas no coinciden".
  */
 ?>
+<html> 
+  <head> 
+  <title>Formulario entrada de Datos :3</title> 
+  </head> 
+  <body>
+  <form method="post" action="validar.php"> 
+   Nombre de usuario: 
+  <input type="text" name="usuario"> 
+  <br>
+Ingrese su clave:
+<input type="password" name="clave">
+<br>
+Ingrese nuevamente la contraseña por favor
+<input type="password" name="claveConfirmacion">
+<br>
+
+  <input type="submit" center value="confirmar"> 
+  </form>
+</body> 
+</html>
